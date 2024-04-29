@@ -5,7 +5,7 @@ from model.GoogleNet_kidney import GoogLeNet
 from model.VIT_kidney import VIT
 from model.Pre_VIT_kidney import Pre_VIT
 from model.Resnet50_kidney import ResNet50
-from data.dataset import My_Dataset,My_Dataset_test
+from dataset import My_Dataset,My_Dataset_test
 from Test import test_GoogleNet,test_Resnet50,test_VIT,test_Pre_VIT
 # import matplotlib.pyplot as plt
 
