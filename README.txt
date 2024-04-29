@@ -6,11 +6,18 @@ Resnet50 		 100			    84.78%			     46.91%
 ViT			 100			    41.36%			     46.03%
 Googlenet	 188			    85.33%			     90.18%
 
+#代码介绍
 整个代码分为data,model,train和test部分,其中：
-data：含有按label分类号的训练集和测试集以及编写好的dataset文件。
+dataset：编写好的dataset文件。
 model：含有几个测试的模型pytorch框架实现。
 train：编写了各个模型的训练代码，并且在每20epoch处进行模型参数保存。
 test：编写了各个模型的测试代码。
-Weights：存储了各个模型的在各个epoch处保存的模型参数，方便载入。
+Weights：为存储了各个模型的在各个epoch处保存的模型参数，方便载入。（需自行创建文件夹）
+
+#数据集下载：CT of Kideney
+kaggle：https://www.kaggle.com/datasets/nazmul0087/ct-kidney-dataset-normal-cyst-tumor-and-stone/data
+
+#运行
+需要下载好数据集，同时修改相应载入数据集的路径即可，在train中选择相应的训练函数运行即可。
 
 这是我学习接触人工智能半年时参加接触的项目代码，内部有很多代码结构不如GitHub上顶会论文中的简洁且有体系，但是这个代码让我更实在的接触了深度学习的编程，提高了我的编程能力。希望老师多多指教~
