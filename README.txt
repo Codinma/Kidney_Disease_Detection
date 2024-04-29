@@ -1,10 +1,10 @@
 这个代码是我2023年暑假在NTU参加人工智能交流项目时进行医疗图像识别诊断时写的，所有代码均是我一人编写。
 这个代码是对于肾脏CT图像进行识别诊断的深度学习方法实现，主要跑了当时几个比较火的model，如：ViT,Resnet,Googlenet等。
 实验结果如下：
-Model		Epoch		Train accuracy		Test accuracy
-Resnet50 		 100			    84.78%			     46.91%
-ViT			 100			    41.36%			     46.03%
-Googlenet	 188			    85.33%			     90.18%
+Model		      Epoch		  Train accuracy		Test accuracy
+Resnet50 		   100			    84.78%			     46.91%
+ViT			       100			    41.36%			     46.03%
+Googlenet	     188			    85.33%			     90.18%
 
 #代码介绍
 整个代码分为data,model,train和test部分,其中：
