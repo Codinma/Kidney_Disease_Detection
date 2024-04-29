@@ -18,6 +18,6 @@ Weights：为存储了各个模型的在各个epoch处保存的模型参数，�
 kaggle：https://www.kaggle.com/datasets/nazmul0087/ct-kidney-dataset-normal-cyst-tumor-and-stone/data
 
 #运行
-需要下载好数据集，同时修改相应载入数据集的路径即可，在train中选择相应的训练函数运行即可。
+需要下载好数据集，同时修改相应载入数据集的路径以及Weights的model参数载入和保存路径即可，在train中选择相应的训练函数运行即可。
 
 这是我学习接触人工智能半年时参加接触的项目代码，内部有很多代码结构不如GitHub上顶会论文中的简洁且有体系，但是这个代码让我更实在的接触了深度学习的编程，提高了我的编程能力。希望老师多多指教~
